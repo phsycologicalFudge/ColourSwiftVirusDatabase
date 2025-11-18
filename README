@@ -21,7 +21,6 @@ Encrypted virus-definition package used by the ColourSwift AV+ Engine. This file
 defs_key.bin
 Deprecated. This key is no longer shipped. VXPack is now internally validated and authenticated by the engine.
 
-(No more release/ APK distribution here.)
 APK builds are no longer shipped through this repository. Users should obtain builds exclusively from the official ColourSwift website or store listings.
 
 
