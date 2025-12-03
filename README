@@ -12,17 +12,11 @@ Note: Older folders such as release/ are deprecated and no longer used.
 
 Repository Structure
 
-clamav/
+defs_raw/
 Contains ClamAV-derived signature data under GPLv2. These files are the only components covered by the GPLv2 license provided in LICENSE.
 
 defs.vxpack
 Encrypted virus-definition package used by the ColourSwift AV+ Engine. This file contains proprietary metadata, curated hash sets, ColourSwift-specific heuristics, and engine rules. It is not derived from GPL sources.
-
-defs_key.bin
-Deprecated. This key is no longer shipped. VXPack is now internally validated and authenticated by the engine.
-
-APK builds are no longer shipped through this repository. Users should obtain builds exclusively from the official ColourSwift website or store listings.
-
 
 
 Purpose
@@ -49,7 +43,7 @@ For security reasons, users must download builds directly from the official Colo
 
 License Notice
 
-Only the files inside the clamav/ directory are covered under the GNU General Public License v2.0 (GPL-2.0).
+Only the files inside the defs_raw/ directory are covered under the GNU General Public License v2.0 (GPL-2.0).
 
 The LICENSE file in this repository applies solely to those GPL-derived signatures.
 
